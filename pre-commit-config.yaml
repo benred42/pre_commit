@@ -18,6 +18,8 @@
     -   id: requirements-txt-fixer
     -   id: trailing-whitespace
     -   id: flake8
+        args: [--max-complexity 10]
+ 
 -   repo: https://github.com/pre-commit/pre-commit
     hooks:
     -   id: validate_config
