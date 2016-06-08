@@ -1,4 +1,5 @@
 -   repo: https://github.com/pre-commit/pre-commit-hooks
+    sha: v0.5.1
     hooks:
     -   id: check-added-large-files
     -   id: check-ast
@@ -19,16 +20,20 @@
     -   id: trailing-whitespace
     -   id: flake8
 -   repo: https://github.com/pre-commit/pre-commit
+    sha: v0.8.2
     hooks:
     -   id: validate_config
     -   id: validate_manifest
 -   repo: https://github.com/asottile/reorder_python_imports
+    sha: v0.2.0
     hooks:
     -   id: reorder-python-imports
         language_version: python2.7
 -   repo: https://github.com/pre-commit/mirrors-csslint
+    sha: 9c492bd1cc4446a207ecd1d98784be436de565de
     hooks:
     -   id: csslint
 -   repo: https://github.com/pre-commit/mirrors-jshint
+    sha: v2.9.2
     hooks:
     -   id: jshint
