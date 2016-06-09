@@ -8,11 +8,10 @@
     -   id: check-json
     -   id: pretty-format-json
     -   id: check-merge-conflict
-    -   id: check-symlink
+    -   id: check-symlinks
     -   id: check-xml
     -   id: check-yaml
     -   id: debug-statements
-    -   id: detect-aws-credentials
     -   id: detect-private-key
     -   id: end-of-file-fixer
     -   id: name-tests-test
@@ -20,7 +19,7 @@
     -   id: trailing-whitespace
     -   id: flake8
         args: [--max-complexity 10]
- 
+
 -   repo: https://github.com/pre-commit/pre-commit
     sha: v0.8.2
     hooks:
